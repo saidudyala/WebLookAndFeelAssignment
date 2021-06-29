@@ -11,29 +11,52 @@
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <link href="css/style.css" rel="stylesheet">
     </head>
-    <body>
+    <style>
+        body{
+            background-image: url('img/crops.png');
+            height: 100%;
+            font-size: large;
+  /* Center and scale the image nicely */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #fff;
+        }
+        body{
+            font-size: large;
+            color: #fff;
+        }
+
+        .table thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #fff;
+        }
+    </style>
+    <body >
         <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="img/Vegetables.jpg" height="70" width="200"></a>
+            <div class="container-fluid"><h3 style="color:white;">Agricultural Statistics</h3>
+                <a class="navbar-brand"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="Home.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="Vegetables.html">Vegetables</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="FruitsAndNuts.html">Fruits and Nuts</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="Dairy.html">Dairy</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item "><a class="nav-link" href="Home.html">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="Vegetables.html">Vegetables</a></li>
+                        <li class="nav-item "><a class="nav-link active" href="FruitsAndNuts.html">Fruits and Nuts</a></li>
+                        <li class="nav-item "><a class="nav-link" href="Dairy.html">Dairy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <br>
         <div class="container">
             <div class="table-responsive">
                 <table class="table table-bordered">
-                    <caption>Fruits&Nuts sales Statistics report</caption>
+                    <caption style="color: white;">Fruits&Nuts sales Statistics report</caption>
                     <thead>
                         <tr>
                             <th scope="col">S.No</th>
